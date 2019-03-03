@@ -6,7 +6,7 @@ from products.views import product_detail
 from mixer.backend.django import mixer
 
 @pytest.fixture
-def factory():
+def factory(scope='module'):
     return RequestFactory()
 
 @pytest.fixture
