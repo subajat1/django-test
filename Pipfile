@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==1.11.20"
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+mixer = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
